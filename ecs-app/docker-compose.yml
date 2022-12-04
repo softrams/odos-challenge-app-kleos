@@ -1,0 +1,13 @@
+version: "3"
+services:
+  db:
+    image: "postgres:13"
+    container_name: "ecs_app_postgres"
+    environment:
+      POSTGRES_PASSWORD: "admin"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ecs_app_dbdata:/var/lib/postgresql/data
+volumes:
+  ecs_app_dbdata:

@@ -9,7 +9,12 @@
 		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
 		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.9.xsd">
 	<changeSet id="20202-12-04-01" author="Weldu Berhe">
-	   <sqlFile path="db/update/2022-12/2022-12-04-crt_tabl_ecs_ben.sql"/>
-		<sqlFile path="db/update/2022-12/2022-12-04-crt_tabl_ecs_ben_address.sql"/>
+	   <sqlFile path="db/update/2022-12-04/2022-12-04-crt_tabl_ecs_ben.sql"/>
+		<sqlFile path="db/update/2022-12-04/2022-12-04-crt_tabl_ecs_ben_address.sql"/>
+	</changeSet>
+	<changeSet id="20202-12-05-01" author="Weldu Berhe">
+		<sqlFile path="db/update/2022-12-05/2022-12-05-crt_tabl_ecs_role.sql"/>
+		<sqlFile path="db/update/2022-12-05/2022-12-05-crt_tabl_ecs_user.sql"/>
+		<sqlFile path="db/update/2022-12-05/2022-12-05-crt_tabl_ecs_user_role.sql"/>
 	</changeSet>
 </databaseChangeLog>

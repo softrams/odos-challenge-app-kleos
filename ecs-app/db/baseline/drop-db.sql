@@ -1,4 +1,4 @@
-ALTER DATABASE :databaseName WITH ALLOW_CONNECTIONS false;
-SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = ':databaseName';
+ALTER DATABASE :dbName WITH ALLOW_CONNECTIONS false;
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = ':dbName';
 
-DROP DATABASE IF EXISTS :databaseName;
+DROP DATABASE IF EXISTS :dbName;

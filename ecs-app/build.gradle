@@ -17,6 +17,7 @@ repositories {
 }
 
 node {
+	// visit documentation here: https://github.com/node-gradle/gradle-node-plugin/blob/3.5.0/docs/usage.md
 	// Whether to download and install a specific Node.js version or not
 	// If false, it will use the globally installed Node.js
 	// If true, it will download node using above parameters

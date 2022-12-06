@@ -18,4 +18,12 @@
 		<sqlFile path="db/update/2022-12-05-02/2022-12-05-crt_tbl_ecs_question.sql"/>
 		<sqlFile path="db/update/2022-12-05-02/2022-12-05-crt_tbl_ecs_question_answer.sql"/>
 	</changeSet>
+	<changeSet id="20202-12-05-03" author="Weldu Berhe">
+		<sqlFile path="db/update/2022-12-05-03/2022-12-05-01-crt_tbl_adj_status.sql"/>
+		<sqlFile path="db/update/2022-12-05-03/2022-12-05-02-crt_tbl_adj_queue.sql"/>
+	</changeSet>
+	<changeSet id="20202-12-05-04" author="Weldu Berhe">
+		<sqlFile path="db/update/2022-12-05-04/2022-12-05-01-ins_user_ref_data.sql"/>
+		<sqlFile path="db/update/2022-12-05-04/2022-12-05-02-ins_question_ref_data.sql"/>
+	</changeSet>
 </databaseChangeLog>

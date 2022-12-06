@@ -1,0 +1,10 @@
+INSERT INTO ecs_role (id, name) VALUES (1, 'access_1');
+INSERT INTO ecs_role (id, name) VALUES (2, 'access_2');
+INSERT INTO ecs_role (id, name) VALUES (3, 'access_3');
+INSERT INTO ecs_user (id, first_name, last_name,email, password) VALUES (1, 'John', 'Doe', 'john.doe@gmail.com', 'test');
+INSERT INTO ecs_user (id, first_name, last_name,email, password) VALUES (5, 'John2', 'Doe', 'john2.doe@gmail.com', 'test');
+INSERT INTO ecs_user (id, first_name, last_name,email, password) VALUES (6, 'John3', 'Doe', 'john3.doe@gmail.com', 'test');
+INSERT INTO ecs_usr_role (id, user_id, role_id) VALUES (100, 1, 1);
+INSERT INTO ecs_usr_role (id, user_id, role_id) VALUES (101, 5, 2);
+INSERT INTO ecs_usr_role (id, user_id, role_id) VALUES (102, 6, 3);
+COMMIT;
